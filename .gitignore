@@ -1,0 +1,36 @@
+demohospital.salamada.mg/AllFolders/codecanyon-nAkLGmNH-smart-hospital-hospital-management-system.zip
+demohospital.salamada.mg/Salamada.zip
+# Gros fichiers qui causent le problème
+Salamada.zip
+AllFolders/codecanyon-nAkLGmNH-smart-hospital-hospital-management-system.zip
+AllFolders/
+# Répertoires qui ne nécessitent généralement pas de versionnement
+backup/
+temp/
+uploads/
+
+# Fichiers sensibles ou spécifiques à l'environnement
+.env
+.env.*
+config.php
+*.log
+application/third_party/firebase_notification_key.json
+# Répertoires généralement ignorés pour les applications web
+vendor/
+node_modules/
+bower_components/
+dist/
+build/
+.cache/
+
+# Fichiers spécifiques à l'OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Fichiers spécifiques à l'IDE
+.idea/
+.vscode/
+*.sublime-*
+*.code-workspace
