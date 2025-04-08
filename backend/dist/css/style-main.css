@@ -3743,7 +3743,7 @@ table.text-center th {
 }
 .btn-facebook {
   color: #fff;
-  background-color: #3b5998;
+  background-color: #125b85;
   border-color: rgba(0, 0, 0, 0.2);
 }
 .btn-facebook:hover,
@@ -3906,12 +3906,12 @@ table.text-center th {
   background-image: none;
 }
 .btn-linkedin .badge {
-  color: #007bb6;
+  color: #125b85;
   background-color: #fff;
 }
 .btn-microsoft {
   color: #fff;
-  background-color: #2672ec;
+  background-color: #125b85;
   border-color: rgba(0, 0, 0, 0.2);
 }
 .btn-microsoft:hover,
@@ -3930,7 +3930,7 @@ table.text-center th {
   background-image: none;
 }
 .btn-microsoft .badge {
-  color: #2672ec;
+  color: #125b85;
   background-color: #fff;
 }
 .btn-openid {
