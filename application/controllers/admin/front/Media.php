@@ -389,11 +389,11 @@ class Media extends Admin_Controller
             $file_name = $_FILES[$var]["name"][0];
 
             $allowed_extension = array_map('trim', array_map('strtolower', explode(',', ($result->image_extension . "," . $result->file_extension))));
-            // $allowed_mime_type = array_map('trim', array_map('strtolower', explode(',', ($result->image_mime . "," . $result->file_mime))));
+            $allowed_mime_type = array_map('trim', array_map('strtolower', explode(',', ($result->image_mime . "," . $result->file_mime))));
 
             $ext = strtolower(pathinfo($file_name, PATHINFO_EXTENSION));
 
-            if (!in_array($file_type)) {
+            if (!in_array($file_type, $allowed_mime_type)) {
                 $this->form_validation->set_message('handle_upload_file', $this->lang->line('file_type_not_allowed'));
                 return false;
             } elseif (!in_array($ext, $allowed_extension) || !in_array($file_type, $allowed_mime_type)) {
