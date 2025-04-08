@@ -2590,7 +2590,7 @@ class dashboard extends Patient_Controller
                             $array_custom     = array(
                                 'belong_table_id' => 0,
                                 'custom_field_id' => $key,
-                                'field_value'     => $field_value,
+                                'field_value'   cms => $field_value,
                             );
                             $custom_value_array[] = $array_custom;
                         }
