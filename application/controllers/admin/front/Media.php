@@ -395,7 +395,6 @@ class Media extends Admin_Controller
 
             if (!in_array($file_type, $allowed_mime_type)) {
                 $this->form_validation->set_message('handle_upload_file', $this->lang->line('file_type_not_allowed'));
-                print_r($_FILES);
                 return false;
             } elseif (!in_array($ext, $allowed_extension) || !in_array($file_type, $allowed_mime_type)) {
                 $this->form_validation->set_message('handle_upload_file', $this->lang->line('file_type_not_allowed'));
