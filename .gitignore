@@ -19,7 +19,6 @@ application/third_party/firebase_notification_key.json
 vendor/
 node_modules/
 bower_components/
-dist/
 build/
 .cache/
 
