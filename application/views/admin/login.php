@@ -230,12 +230,12 @@
                             onclick="fillCredentials('receptionist')">
                             <i class="fas fa-headset mr-1"></i> <?php echo $this->lang->line('receptionist'); ?>
                         </button>
-                        <a href="https://demohospital.salamada.mg/"
+                        <a href="https://demohopital.salamada.mg/"
                             class="flex items-center justify-center h-[40px] p-2 bg-secondary hover:bg-opacity-90 text-white text-xs font-medium rounded-md transition duration-200 no-underline">
                             <i class="fas fa-globe mr-1"></i>
                             Web hopital
                         </a>
-                        <a href="https://demohospital.salamada.mg/form/appointment"
+                        <a href="https://demohopital.salamada.mg/form/appointment"
                             class="flex items-center justify-center h-[40px] p-2 bg-secondary hover:bg-opacity-90 text-white text-xs font-medium rounded-md transition duration-200 no-underline">
                             <i class="fas fa-globe mr-1"></i>
                             Site rdv
