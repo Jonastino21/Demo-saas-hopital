@@ -21,7 +21,7 @@ $route['admin/resetpassword/(:any)']         = 'site/admin_resetpassword/$1';
 $route['admin/unauthorized']                 = 'admin/admin/unauthorized';
 $route['404_override'] = 'welcome/show_404';
 $route['translate_uri_dashes'] = false;
-$route['form/appointment']     = 'welcome/appointment';
+$route['rendez-vous']     = 'welcome/appointment';
 $route['page/annual_calendar']     = 'welcome/annual_calendar';
 
 //======= front url rewriting==========

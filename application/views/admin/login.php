@@ -235,7 +235,7 @@
                             <i class="fas fa-globe mr-1"></i>
                             Web hopital
                         </a>
-                        <a href="https://demohopital.salamada.mg/form/appointment"
+                        <a href="https://demohopital.salamada.mg/rendez-vous"
                             class="flex items-center justify-center h-[40px] p-2 bg-secondary hover:bg-opacity-90 text-white text-xs font-medium rounded-md transition duration-200 no-underline">
                             <i class="fas fa-globe mr-1"></i>
                             Site rdv
